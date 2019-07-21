@@ -4,7 +4,6 @@ require 'rails/generators'
 require 'rails/generators/active_record'
 
 module ChangeTracker
-  # Basic structure to support a generator that builds a migration
   class MigrationGenerator < ::Rails::Generators::Base
     include ::Rails::Generators::Migration
 

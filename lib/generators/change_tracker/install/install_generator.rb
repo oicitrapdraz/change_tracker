@@ -3,7 +3,6 @@
 require_relative '../migration_generator'
 
 module ChangeTracker
-  # Install generator for ChangeTracker
   class InstallGenerator < MigrationGenerator
     MYSQL_ADAPTERS = [
       'ActiveRecord::ConnectionAdapters::MysqlAdapter',
